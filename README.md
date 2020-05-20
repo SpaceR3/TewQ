@@ -1,6 +1,8 @@
 # TewQ
-High Level Remote Administrator Trojan. 100% FUD Without any Crypter
-
+Free, Open-Source Remote Administration Tool for Windows.
+20/05/2020 on Virustotal 3/72 detected 
+SecireAge APEX, eGambit and Sangfor Engine Zero detected it as a virus.
+https://i.imgur.com/DusizWW.png
 
 # Features
 coming
