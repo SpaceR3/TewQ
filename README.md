@@ -13,6 +13,27 @@ https://i.imgur.com/DusizWW.png
 ### Disconnect
 ### Unistall
 
+## System
+### System Infomartion
+### Startup Manager
+### File Manager
+### Anti Virus Disable
+### Task Manager
+### Remote Shell
+### Registry Editor
+
+##Spy
+### Remote Control
+### Webcam View
+### Cookie Stealer
+### Credential Stealer
+
+##Misc
+### Messagebox
+### Keylogger
+### Visit Website
+### Remote Execute Local File, Web File
+
 # Compiling
 Open the project in Visual Studio 2017+. Then press Build or F6.
 You will find the Builded Client in Repos/Tewq/bin/debug
