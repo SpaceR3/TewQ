@@ -8,6 +8,7 @@ https://i.imgur.com/DusizWW.png\
 # Screenshots
 ![Alt text](https://i.imgur.com/5wRiUYz.png "Screenshots")
 ![Alt text](https://i.imgur.com/vJ9g09t.png "Screenshots")
+Yes i know my IP is there and i really do not care.
 # Features
 
 ## Server
