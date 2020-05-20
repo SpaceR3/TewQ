@@ -5,12 +5,13 @@ SecireAge APEX, eGambit and Sangfor Engine Zero detected it as a virus.
 https://i.imgur.com/DusizWW.png
 
 # Features
-##Server\
-### Test Connection\
-### Update\
-### Reconnect\
-### Disconnect\
-### Unistall\
+
+## Server
+### Test Connection
+### Update
+### Reconnect
+### Disconnect
+### Unistall
 
 # Compiling
 Open the project in Visual Studio 2017+. Then press Build or F6.
