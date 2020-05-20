@@ -5,7 +5,7 @@ SecireAge APEX, eGambit and Sangfor Engine Zero detected it as a virus.
 https://i.imgur.com/DusizWW.png
 
 # Features
-coming
+too lazy to type them out currently
 
 
 # Compiling
