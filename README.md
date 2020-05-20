@@ -38,6 +38,10 @@ Yes i know my IP is there and i really do not care.
 ### Keylogger
 ### Visit Website
 ### Remote Execute Local File, Web File
+### DDOS Layer 7 Extreme 100-4000RQ/S
+### Python 2.7 SilentInstaller
+### Python 2.7 Executer
+
 
 # Compiling
 Open the project in Visual Studio 2017+. Then press Build or F6.
