@@ -7,7 +7,7 @@ https://i.imgur.com/DusizWW.png\
 
 # Screenshots
 ![Alt text](https://i.imgur.com/5wRiUYz.png "Screenshots")
-
+![Alt text](https://i.imgur.com/vJ9g09t.png "Screenshots")
 # Features
 
 ## Server
