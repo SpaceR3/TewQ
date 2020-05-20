@@ -1,0 +1,10 @@
+
+Server/obj/Debug/Server.csprojAssemblyReference.cache
+Server/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+Server/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+Client/Debug/ConsoleApplication4.vcxprojAssemblyReference.cache
+Client/.vs/ConsoleApplication4/v16/ipch/db9b83b1a52b85a5.ipch
+Client/.vs/ConsoleApplication4/v16/Browse.VC.opendb
+Client/.vs/ConsoleApplication4/v16/Browse.VC.db
+Client/.vs/ConsoleApplication4/v16/.suo
+*.cache
