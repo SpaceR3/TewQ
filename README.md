@@ -5,7 +5,22 @@ SecireAge APEX, eGambit and Sangfor Engine Zero detected it as a virus.
 https://i.imgur.com/DusizWW.png
 
 # Features
-too lazy to type them out currently
+Misc
+	Messagebox
+	Keylogger
+	Visib Website
+	Remote Execute>
+			>Local File
+			>Web File
+	DDOS>
+		>Layer 7
+			>Simple 15-25RQ
+			>Normal 50-200RQ
+			>Extreme 100-4000RQ
+		>Layer 4
+			>None
+	Scripts>
+		Python 2.7
 
 
 # Compiling
