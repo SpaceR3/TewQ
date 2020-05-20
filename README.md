@@ -6,14 +6,14 @@ https://i.imgur.com/DusizWW.png
 
 # Features
 Misc
-	Messagebox
-	Keylogger
-	Visib Website
-	Remote Execute>
-			>Local File
-			>Web File
-	DDOS>
-		>Layer 7
+	Messagebox\
+	Keylogger\
+	Visib Website\
+	Remote Execute>\
+			>Local File\
+			>Web File\
+	DDOS>\
+		>Layer 7\
 			>Simple 15-25RQ
 			>Normal 50-200RQ
 			>Extreme 100-4000RQ
