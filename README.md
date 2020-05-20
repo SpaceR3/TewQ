@@ -22,13 +22,13 @@ https://i.imgur.com/DusizWW.png
 ### Remote Shell
 ### Registry Editor
 
-##Spy
+## Spy
 ### Remote Control
 ### Webcam View
 ### Cookie Stealer
 ### Credential Stealer
 
-##Misc
+## Misc
 ### Messagebox
 ### Keylogger
 ### Visit Website
