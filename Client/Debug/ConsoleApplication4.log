@@ -1,0 +1,4 @@
+﻿LINK : warning LNK4044: unrecognized option '/windows.h'; ignored
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : warning LNK4044: unrecognized option '/windows.h'; ignored
+  ConsoleApplication4.vcxproj -> C:\Users\tewni\source\repos\ConsoleApplication4\Debug\ShareX.exe

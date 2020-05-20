@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{860818B7-EB4D-438C-B5F7-6B2D1A979D67}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>Server</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Anti_V1rus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Anti_V1rus.Designer.cs">
+      <DependentUpon>Anti_V1rus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Fmanager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Fmanager.Designer.cs">
+      <DependentUpon>Fmanager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\HulkPy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HulkPy.Designer.cs">
+      <DependentUpon>HulkPy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\mainy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\mainy.Designer.cs">
+      <DependentUpon>mainy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Newpu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Newpu.Designer.cs">
+      <DependentUpon>Newpu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RMote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RMote.Designer.cs">
+      <DependentUpon>RMote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RunFromLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RunFromLocal.Designer.cs">
+      <DependentUpon>RunFromLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RunFromWEB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RunFromWEB.Designer.cs">
+      <DependentUpon>RunFromWEB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\KeyLogg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\KeyLogg.Designer.cs">
+      <DependentUpon>KeyLogg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Msg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Msg.Designer.cs">
+      <DependentUpon>Msg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RunPs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RunPs.Designer.cs">
+      <DependentUpon>RunPs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\suur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\suur.Designer.cs">
+      <DependentUpon>suur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Task_Manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Task_Manager.Designer.cs">
+      <DependentUpon>Task_Manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Update.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Update.Designer.cs">
+      <DependentUpon>Update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WebsiteF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\WebsiteF.Designer.cs">
+      <DependentUpon>WebsiteF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\Main_settings.cs" />
+    <Compile Include="test.cs" />
+    <EmbeddedResource Include="Forms\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Anti_V1rus.resx">
+      <DependentUpon>Anti_V1rus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Fmanager.resx">
+      <DependentUpon>Fmanager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\HulkPy.resx">
+      <DependentUpon>HulkPy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\mainy.resx">
+      <DependentUpon>mainy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Newpu.resx">
+      <DependentUpon>Newpu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RMote.resx">
+      <DependentUpon>RMote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RunFromLocal.resx">
+      <DependentUpon>RunFromLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RunFromWEB.resx">
+      <DependentUpon>RunFromWEB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\KeyLogg.resx">
+      <DependentUpon>KeyLogg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Msg.resx">
+      <DependentUpon>Msg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RunPs.resx">
+      <DependentUpon>RunPs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\suur.resx">
+      <DependentUpon>suur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Task_Manager.resx">
+      <DependentUpon>Task_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Update.resx">
+      <DependentUpon>Update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WebsiteF.resx">
+      <DependentUpon>WebsiteF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
