@@ -50,7 +50,7 @@ You will find the Builded Client in Repos/Tewq/bin/debug
 
 
 # Help
-I will support anyone who asks for help. Make a ticket or add me on my discord: SpaceR#4641
+I will support anyone who asks for help. Make a ticket or add me on my discord: Tewni#4641
 If anyone can help me setup my github page then dm me aswell.
 
 # To-do
