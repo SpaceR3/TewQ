@@ -1,10 +1,9 @@
 # TewQ
 Free, Open-Source Remote Administration Tool for Windows.\
 For Educational Purposes Only. I will be not responsible what you do with this tool.\
-20/05/2020 on Virustotal 3/72 detected \
-SecireAge APEX, eGambit and Sangfor Engine Zero detected it as a virus.\
-https://i.imgur.com/DusizWW.png\
-
+Please for the LOVE of GOD do not DM me on Discord for help setting it up.\
+\
+\
 # Screenshots
 ![Alt text](https://i.imgur.com/5wRiUYz.png "Screenshots")
 ![Alt text](https://i.imgur.com/vJ9g09t.png "Screenshots")
