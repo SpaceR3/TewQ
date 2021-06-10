@@ -26,7 +26,7 @@ namespace Server.Forms
         {
             string text = listBox1.GetItemText(listBox1.SelectedItem);
             if (text == "Avast")
-                f.SendData("Avasb");
+                f.SendData("Avast");
             if(text == "Windows Defender")
                 f.SendData("Windows");
         }
